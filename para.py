@@ -8,8 +8,10 @@ username = creds.username
 password = creds.password
 enable_pw = creds.enable_pw
 
-devices = {"192.168.14.2": "ASA", 
-			"192.168.14.1": "IOS"}
+devices = {
+			"192.168.14.2": "ASA", 
+			"192.168.14.1": "IOS"
+			}
 
 commands = ["sh ver", "sh int ip br", "sh vlan br"]
 
