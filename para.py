@@ -25,8 +25,8 @@ def enable(conn, enable_pw):
 	time.sleep(1)
 
 def ssh_conn(devices):
-	output = []
 	for device, type in devices.iteritems():
+		output = []
 		conn_pre = paramiko.SSHClient()
 		conn_pre.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 		conn_pre.connect(device, username=username, password=password)
