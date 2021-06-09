@@ -2,11 +2,10 @@
 
 import paramiko
 import time
-import creds
 
-username = creds.username
-password = creds.password
-enable_pw = creds.enable_pw
+username = "your_username"
+password = "your_password"
+enable_pw = "enable_password"
 
 devices = {
 	"192.168.14.2": "ASA", 
